@@ -1,8 +1,8 @@
-import { Player } from './classes/player';
-import { Student } from './classes/student';
-import { identity, addId } from './utils/generics';
-import { Direction } from './types/types';
-import { Weekdays } from './enums/weekdays';
+import { Player } from './classes/player.js';
+import { Student } from './classes/student.js';
+import { identity, addId } from './utils/generics.js';
+import { Direction } from './types/types.js';
+import { Weekdays } from './enums/weekdays.js';
 
 // Basic examples
 let playerName = "Saif";
