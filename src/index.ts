@@ -31,3 +31,6 @@ console.log(Direction.UP);
 // Enums examples
 console.log(Weekdays.MONDAY);
 
+
+import { Multiply } from "./examples/modules.js";
+console.log(Multiply(3, 4));
