@@ -1,16 +1,27 @@
 {
-    "name": "typescript-basic",
-    "version": "1.0.0",
-    "description": "TypeScript Basic Project",
-    "main": "dist/index.js",
-    "scripts": {
-      "build": "tsc",
-      "start": "node server.js"
-    },
-    "dependencies": {
-      "express": "^4.18.2"
-    },
-    "devDependencies": {
-      "typescript": "^5.0.0"
-    }
+  "name": "typescript-basic",
+  "version": "1.0.0",
+  "description": "A hands-on TypeScript learning project - basic to advanced lessons plus a full study guide.",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf dist",
+    "run:lessons": "npm run build && node dist/index.js",
+    "serve": "node server.cjs",
+    "start": "npm run build && node server.cjs"
+  },
+  "keywords": [
+    "typescript",
+    "learning",
+    "examples",
+    "tutorial",
+    "interview"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^7.0.2"
   }
+}
